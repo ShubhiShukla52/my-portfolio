@@ -85,8 +85,8 @@ function ContactPage() {
               <h2 className="text-lg font-semibold text-card-foreground">Contact Information</h2>
               <ul className="mt-4 space-y-4">
                 <li className="flex items-start gap-4">
-                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-accent text-lg text-accent-foreground">
-                    ✉️
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-accent text-accent-foreground">
+                    <MailIcon className="h-5 w-5" />
                   </span>
                   <div>
                     <p className="text-sm font-medium text-muted-foreground">Email</p>
