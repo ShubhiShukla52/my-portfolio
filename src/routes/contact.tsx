@@ -108,8 +108,8 @@ function ContactPage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-4">
-                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-accent text-lg text-accent-foreground">
-                    📍
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-accent text-accent-foreground">
+                    <MapPinIcon className="h-5 w-5" />
                   </span>
                   <div>
                     <p className="text-sm font-medium text-muted-foreground">Location</p>
