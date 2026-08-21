@@ -56,10 +56,10 @@ function MapPinIcon({ className }: { className?: string }) {
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact Me — Radha" },
-      { name: "description", content: "Get in touch with Radha. Email, phone, and social links available." },
-      { property: "og:title", content: "Contact Me — Radha" },
-      { property: "og:description", content: "Get in touch with Radha. Email, phone, and social links available." },
+      { title: "Contact Me — Shubhi" },
+      { name: "description", content: "Get in touch with Shubhi. Email, phone, and social links available." },
+      { property: "og:title", content: "Contact Me — Shubhi" },
+      { property: "og:description", content: "Get in touch with Shubhi. Email, phone, and social links available." },
     ],
   }),
   component: ContactPage,
@@ -91,10 +91,10 @@ function ContactPage() {
                   <div>
                     <p className="text-sm font-medium text-muted-foreground">Email</p>
                     <a
-                      href="mailto:radha@example.com"
+                      href="mailto:shubhi@example.com"
                       className="text-foreground transition-colors hover:text-primary"
                     >
-                      radha@example.com
+                      shubhi@example.com
                     </a>
                   </div>
                 </li>

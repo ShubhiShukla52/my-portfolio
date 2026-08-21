@@ -38,10 +38,10 @@ function ChatIcon({ className }: { className?: string }) {
 export const Route = createFileRoute("/skills")({
   head: () => ({
     meta: [
-      { title: "Skills — Radha" },
-      { name: "description", content: "Explore Radha's technical skills, soft skills, and languages." },
-      { property: "og:title", content: "Skills — Radha" },
-      { property: "og:description", content: "Explore Radha's technical skills, soft skills, and languages." },
+      { title: "Skills — Shubhi" },
+      { name: "description", content: "Explore Shubhi's technical skills, soft skills, and languages." },
+      { property: "og:title", content: "Skills — Shubhi" },
+      { property: "og:description", content: "Explore Shubhi's technical skills, soft skills, and languages." },
     ],
   }),
   component: SkillsPage,

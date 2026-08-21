@@ -3,10 +3,10 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Me — Radha" },
-      { name: "description", content: "Learn more about Radha, a developer passionate about programming, problem solving, and continuous learning." },
-      { property: "og:title", content: "About Me — Radha" },
-      { property: "og:description", content: "Learn more about Radha, a developer passionate about programming, problem solving, and continuous learning." },
+      { title: "About Me — Shubhi" },
+      { name: "description", content: "Learn more about Shubhi, a developer passionate about programming, problem solving, and continuous learning." },
+      { property: "og:title", content: "About Me — Shubhi" },
+      { property: "og:description", content: "Learn more about Shubhi, a developer passionate about programming, problem solving, and continuous learning." },
     ],
   }),
   component: AboutPage,
@@ -36,7 +36,7 @@ function AboutPage() {
 
           <div className="space-y-5 text-foreground">
             <p>
-              Hi, I'm <strong>Radha</strong>. I am an enthusiastic learner with a deep interest in
+              Hi, I'm <strong>Shubhi</strong>. I am an enthusiastic learner with a deep interest in
               technology and programming. I enjoy turning ideas into real-world applications and
               believe that consistent practice is the key to mastering any skill.
             </p>

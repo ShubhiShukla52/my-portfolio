@@ -77,11 +77,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Radha — Portfolio" },
-      { name: "description", content: "Personal portfolio of Radha — developer, problem solver, and lifelong learner." },
-      { name: "author", content: "Radha" },
-      { property: "og:title", content: "Radha — Portfolio" },
-      { property: "og:description", content: "Personal portfolio of Radha — developer, problem solver, and lifelong learner." },
+      { title: "Shubhi — Portfolio" },
+      { name: "description", content: "Personal portfolio of Shubhi — developer, problem solver, and lifelong learner." },
+      { name: "author", content: "Shubhi" },
+      { property: "og:title", content: "Shubhi — Portfolio" },
+      { property: "og:description", content: "Personal portfolio of Shubhi — developer, problem solver, and lifelong learner." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -144,7 +144,7 @@ function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/80 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link to="/" className="text-lg font-bold tracking-tight text-foreground">
-          Radha<span className="text-primary">.</span>
+          Shubhi<span className="text-primary">.</span>
         </Link>
 
         <nav className="hidden items-center gap-1 md:flex">
@@ -206,11 +206,11 @@ function Footer() {
     <footer className="w-full border-t border-border/60 bg-background py-8">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 text-center sm:flex-row sm:px-6 lg:px-8">
         <p className="text-sm text-muted-foreground">
-          &copy; {year} Radha. Built with care.
+          &copy; {year} Shubhi. Built with care.
         </p>
         <div className="flex items-center gap-4">
           <a
-            href="mailto:radha@example.com"
+            href="mailto:shubhi@example.com"
             className="text-sm text-muted-foreground transition-colors hover:text-foreground"
           >
             Email
