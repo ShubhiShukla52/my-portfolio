@@ -1,0 +1,52 @@
+RADHA
+Developer & Problem Solver
+Location: India
+Email: radha@example.com
+Phone: +91 98XXX XXXXX
+
+---
+
+SUMMARY
+Enthusiastic learner with a strong interest in programming and problem solving.
+Comfortable with C, C++, Python, Data Structures & Algorithms, and frontend web
+development using HTML, CSS, and JavaScript.
+
+---
+
+TECHNICAL SKILLS
+- Programming Languages: C, C++, Python
+- Data Structures & Algorithms
+- Frontend: HTML, CSS, JavaScript
+
+---
+
+SOFT SKILLS
+- Problem-Solving Approach
+- Communication Skill
+
+---
+
+LANGUAGES
+- Hindi — Fluent
+- English — Fluent
+- French — Basic
+
+---
+
+PROJECTS
+1. Myntra Crown
+   Fashion-focused web experience inspired by Myntra with product browsing and
+   responsive design. Built with HTML, CSS, and JavaScript.
+
+2. Net Watch
+   Network monitoring concept website visualizing connectivity status and basic
+   diagnostics. Built with HTML, CSS, and JavaScript.
+
+3. Fishing Detection Website
+   Awareness website about detecting phishing and fraudulent online activities.
+   Includes informational sections and safety tips.
+
+---
+
+EDUCATION
+[Add your school / college / degree details here]
