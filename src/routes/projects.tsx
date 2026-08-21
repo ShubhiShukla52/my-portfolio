@@ -3,10 +3,10 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/projects")({
   head: () => ({
     meta: [
-      { title: "Projects — Radha" },
-      { name: "description", content: "Check out Radha's projects: Myntra Crown, Net Watch, and Fishing Detection Website." },
-      { property: "og:title", content: "Projects — Radha" },
-      { property: "og:description", content: "Check out Radha's projects: Myntra Crown, Net Watch, and Fishing Detection Website." },
+      { title: "Projects — Shubhi" },
+      { name: "description", content: "Check out Shubhi's projects: Myntra Crown and Phishing Detection Website." },
+      { property: "og:title", content: "Projects — Shubhi" },
+      { property: "og:description", content: "Check out Shubhi's projects: Myntra Crown and Phishing Detection Website." },
     ],
   }),
   component: ProjectsPage,
@@ -23,20 +23,11 @@ const projects = [
     repoUrl: "#",
   },
   {
-    title: "Net Watch",
-    description:
-      "A network monitoring concept website that visualizes connectivity status and basic diagnostics. Designed to practice frontend layout skills and interactive UI components.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    image: "/images/project-net-watch.jpg",
-    liveUrl: "#",
-    repoUrl: "#",
-  },
-  {
-    title: "Fishing Detection Website",
+    title: "Phishing Detection Website",
     description:
       "An awareness-focused website about detecting phishing and fraudulent online activities. Includes informational sections and tips for staying safe on the internet.",
     tags: ["HTML", "CSS", "JavaScript"],
-    image: "/images/project-fishing-detection.jpg",
+    image: "/images/project-phishing-detection.jpg",
     liveUrl: "#",
     repoUrl: "#",
   },
@@ -56,7 +47,7 @@ function ProjectsPage() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-2">
           {projects.map((project) => (
             <article
               key={project.title}

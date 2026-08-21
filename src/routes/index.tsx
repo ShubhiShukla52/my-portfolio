@@ -3,10 +3,10 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Radha — Developer & Problem Solver" },
-      { name: "description", content: "Welcome to Radha's personal portfolio. Explore skills, projects, and get in touch." },
-      { property: "og:title", content: "Radha — Developer & Problem Solver" },
-      { property: "og:description", content: "Welcome to Radha's personal portfolio. Explore skills, projects, and get in touch." },
+      { title: "Shubhi — Developer & Problem Solver" },
+      { name: "description", content: "Welcome to Shubhi's personal portfolio. Explore skills, projects, and get in touch." },
+      { property: "og:title", content: "Shubhi — Developer & Problem Solver" },
+      { property: "og:description", content: "Welcome to Shubhi's personal portfolio. Explore skills, projects, and get in touch." },
     ],
   }),
   component: HomePage,
@@ -19,7 +19,7 @@ function HomePage() {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div className="order-2 lg:order-1">
             <p className="text-sm font-semibold uppercase tracking-widest text-primary">
-              Hello, I'm Radha
+              Hello, I'm Shubhi
             </p>
             <h1 className="mt-4 text-4xl font-bold leading-tight tracking-tight text-foreground sm:text-5xl lg:text-6xl">
               Building ideas with code, curiosity, and coffee.
@@ -49,7 +49,7 @@ function HomePage() {
               <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-accent/60 to-primary/20 blur-2xl" />
               <img
                 src="/images/hero-portrait.jpg"
-                alt="Illustration of Radha working on a laptop with warm ambient lighting"
+                alt="Illustration of Shubhi working on a laptop with warm ambient lighting"
                 className="relative h-72 w-72 rounded-[2rem] object-cover shadow-2xl ring-4 ring-background sm:h-96 sm:w-96"
                 width={384}
                 height={384}
@@ -61,7 +61,7 @@ function HomePage() {
         <div className="mt-20 grid gap-6 sm:grid-cols-3">
           {[
             { label: "Technical Skills", to: "/skills", desc: "C, C++, Python, DSA, HTML, CSS, JS" },
-            { label: "Projects", to: "/projects", desc: "Myntra Crown, Net Watch, Fishing Detection" },
+            { label: "Projects", to: "/projects", desc: "Myntra Crown, Phishing Detection" },
             { label: "Get in Touch", to: "/contact", desc: "Let's connect and build something together." },
           ].map((card) => (
             <Link
