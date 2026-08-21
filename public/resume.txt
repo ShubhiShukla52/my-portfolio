@@ -1,7 +1,7 @@
-RADHA
+SHUBHI
 Developer & Problem Solver
 Location: India
-Email: radha@example.com
+Email: shubhi@example.com
 Phone: +91 98XXX XXXXX
 
 ---
@@ -38,11 +38,7 @@ PROJECTS
    Fashion-focused web experience inspired by Myntra with product browsing and
    responsive design. Built with HTML, CSS, and JavaScript.
 
-2. Net Watch
-   Network monitoring concept website visualizing connectivity status and basic
-   diagnostics. Built with HTML, CSS, and JavaScript.
-
-3. Fishing Detection Website
+2. Phishing Detection Website
    Awareness website about detecting phishing and fraudulent online activities.
    Includes informational sections and safety tips.
 
