@@ -110,15 +110,18 @@ function SkillsPage() {
                 Skills that help me collaborate, communicate, and grow.
               </p>
               <div className="mt-6 grid gap-4 sm:grid-cols-2">
-                {softSkills.map((skill) => (
-                  <div
-                    key={skill.name}
-                    className="flex items-center gap-3 rounded-xl bg-accent/40 p-4"
-                  >
-                    <span className="text-2xl">{skill.icon}</span>
-                    <span className="text-sm font-medium text-accent-foreground">{skill.name}</span>
-                  </div>
-                ))}
+                {softSkills.map((skill) => {
+                  const Icon = skill.icon;
+                  return (
+                    <div
+                      key={skill.name}
+                      className="flex items-center gap-3 rounded-xl bg-accent/40 p-4"
+                    >
+                      <Icon className="h-6 w-6 text-accent-foreground" />
+                      <span className="text-sm font-medium text-accent-foreground">{skill.name}</span>
+                    </div>
+                  );
+                })}
               </div>
             </div>
 
