@@ -23,8 +23,8 @@ const technicalSkills = [
 ];
 
 const softSkills = [
-  { name: "Problem-Solving Approach", icon: "🧩" },
-  { name: "Communication Skill", icon: "💬" },
+  { name: "Problem-Solving Approach", icon: PuzzleIcon },
+  { name: "Communication Skill", icon: ChatIcon },
 ];
 
 const languages = [
